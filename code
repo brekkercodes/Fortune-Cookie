@@ -1,0 +1,14 @@
+import random
+lucky_number = random.randint(1,50)
+day_prediction = ''
+prediction_number = random.randint(1,4)
+if prediction_number == 1:
+  day_prediction = "You reap what you sow"
+if prediction_number == 2:
+  day_prediction = "Your life will bloom when spring comes"
+if prediction_number == 3:
+  day_prediction = "You will travel alot before you settle down"
+if prediction_number == 4:
+  day_prediction = "Happiness can be found even in the darkest of times, if one only remembers to turn on the light. - AD "
+  
+print(f"{day_prediction}. Your lucky number is {lucky_number}")
